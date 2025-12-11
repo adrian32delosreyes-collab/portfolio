@@ -20,7 +20,7 @@ body {
 .hero {
   position: relative;
   width: 100%;
-  min-height: 60vh;
+  min-height: 80vh;
   background-color: #ffffff;
   color: #423b20;
   display: flex;
@@ -145,7 +145,7 @@ body {
 /* RESPONSIVE BREAKPOINTS */
 @media (max-width: 1024px) {
   .hero {
-    min-height: 50vh;
+    min-height: 80vh;
     padding: clamp(4rem, 8vw, 6rem);
   }
   

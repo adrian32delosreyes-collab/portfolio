@@ -1,7 +1,7 @@
 .aboutme-section {
   background-color: var(--brand-bg);
   color: var(--brand-dark);
-  padding: 100px 10% 80px;
+  padding: 20px 10% 20px;
   display: flex;
   justify-content: center;
   align-items: center;

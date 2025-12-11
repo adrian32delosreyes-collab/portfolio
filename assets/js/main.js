@@ -229,5 +229,7 @@ document.getElementById("hero-about").addEventListener("click", function () {
   if (aboutSection) {
     aboutSection.scrollIntoView({ behavior: "smooth" });
   }
+
+  
 });
 
