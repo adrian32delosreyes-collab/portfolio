@@ -20,7 +20,7 @@ body {
 .hero {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 90px); /* subtract navbar height */
   background-color: #ffffff;
   color: #423b20;
   display: flex;
@@ -28,10 +28,11 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: clamp(5rem, 10vw, 8rem);
+  padding: 5rem 2rem; /* fixed padding */
   box-sizing: border-box;
   overflow: hidden;
 }
+
 
 .hero-name {
   font-family: var(--font-heading);
