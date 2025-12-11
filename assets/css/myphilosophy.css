@@ -16,7 +16,10 @@
   width: 100%;
 }
 
-.philosophy-text-block { flex: 1; text-align: left; }
+.philosophy-text-block { 
+  flex: 1; 
+  text-align: left; 
+}
 
 .philosophy-title {
   font-family: var(--font-heading);
@@ -57,4 +60,3 @@
     border-radius: 50%; 
   }
 }
-
