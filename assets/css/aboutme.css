@@ -78,6 +78,7 @@
     width: 100%;
   }
   .aboutme-photo { 
+    margin-top: -5rem;
     margin-bottom: -5rem; 
     order: 1; /* Photo on top */
     width: clamp(180px, 30vw, 260px);
@@ -92,6 +93,6 @@
   .aboutme-intro,
   .aboutme-body { font-size: clamp(0.85rem, 2.5vw, 0.95rem); line-height: 1.4; }
   .highlight-box { padding: 16px 20px; }
-  .aboutme-photo { width: clamp(150px, 35vw, 200px); height: clamp(150px, 35vw, 200px); }
-  .aboutme-content { gap: 30px; }
+  .aboutme-photo { margin-top: -8rem; margin-bottom: -8rem; width: clamp(150px, 35vw, 200px); height: clamp(150px, 35vw, 200px); }
+  .aboutme-content { gap: 30px; margin-bottom: -2rem; }
 }
