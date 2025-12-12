@@ -19,7 +19,17 @@
 
 .footer-contact { font-size: 0.85rem; margin-top: -20px; margin-bottom: 0; }
 
-.support-btn {
+.footer-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.support-btn,
+.email-btn,
+.linkedin-btn {
   background-color: #e4a740;
   color: #423b20;
   border: none;
@@ -33,16 +43,31 @@
   font-family: var(--font-subheading);
 }
 
-.support-btn:hover { background-color: #d29a34; transform: translateY(-3px); box-shadow: 0 6px 12px rgba(66, 59, 32, 0.2); }
+.support-btn:hover,
+.email-btn:hover,
+.linkedin-btn:hover {
+  background-color: #d29a34;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(66, 59, 32, 0.2);
+}
 
-.social-icons { display: flex; justify-content: center; gap: 22px; margin-top: 10px; }
+.social-icons { display: flex; justify-content: center; gap: 22px; margin-top: -5px; }
 .social-icons a { color: #423b20; font-size: 1.5rem; transition: color 0.3s ease, transform 0.2s ease; }
 .social-icons a:hover { color: #e4a740; transform: translateY(-3px); }
 
 .footer-bottom { margin-top: -15px; font-size: 0.75rem; opacity: 0.8; }
 
 @media (max-width: 600px) {
-  .footer { padding: 60px 15px 80px; }
-  .footer-contact { font-size: 0.9rem; }
-  .social-icons a { font-size: 1.3rem; }
+.footer-buttons {
+  gap: 10px;             
+  margin-top: -5px;      
+  margin-bottom: -10px;   
+}
+
+.email-btn,
+.linkedin-btn,
+.support-btn {
+  padding: 10px 22px;    
+  font-size: 0.9rem;
+  }
 }
