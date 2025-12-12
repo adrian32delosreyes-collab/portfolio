@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { id: 6, category: "digital marketing", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." }, 
     { id: 7, category: "digital marketing", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." }, 
     { id: 8, category: "photography", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." }, 
-    { id: 9, category: "photography", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." } 
+    { id: 9, category: "video editing", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." } 
 
   ];
 
